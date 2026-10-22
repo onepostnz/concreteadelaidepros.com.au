@@ -544,9 +544,10 @@ footer{background:#0f1b2b}
 header.classic nav.links > a,header.classic .nav-item > a{color:rgba(0,0,0,.6)}
 header.classic nav.links a:hover{color:#000}
 header.classic .nav-item svg{stroke:rgba(0,0,0,.6)}
-header.classic .brand img{height:84px}
+header.classic .brand img{height:104px}
 .hero-c{background-color:#9a9a9a}
 .hero-c-box{width:min(40%,560px);min-width:min(100%,340px)}
+@media(max-width:980px){.hero-c-box{width:100%}}
 .hero-c-box h1{text-transform:uppercase}
 .hero-c-box .btn-primary{background:#4fff78}
 .hero-c-box .btn-primary:hover{background:#3de666}
